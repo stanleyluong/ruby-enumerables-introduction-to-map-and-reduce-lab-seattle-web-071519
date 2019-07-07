@@ -44,7 +44,7 @@ def reduce_to_total(array)
   return total
 end
 
-def reduce_to_total(array, start)
+def reduce_to_total(array, start = nil)
   i = 0 
   total = 0
   while i < array.length do 
